@@ -9,8 +9,9 @@ DATA_FILES = [{'data': 'task_09_data/router_01.csv'},
 
 def load_data(listobj):
 
-"""
-Loads the files into a dictionary"""
+
+    """
+    Loads the files into a dictionary"""
 
     dictionary = []
     counter = 0
@@ -20,8 +21,10 @@ Loads the files into a dictionary"""
 
 def merge_data(dictobj):
 
-"""
-Merges and sorts the dictionary"""
+
+    """
+    Merges and sorts the dictionary"""
+    
     dictionary = {}
     for a, b in dictobj.iteritems():
         key = b.values()['day']['hour']
