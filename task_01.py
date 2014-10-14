@@ -1,15 +1,18 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+"""Creates grade data"""
 
-GRADE_DATA = {'student': "Luke Skywalker": {'subject': 'math': {'grade': "B"},
-                                            'etiquette': {'grade': "B+"},
-                                            'grammar': {'grade': "B"},
-                                            'gym': {'grade': "A"}},
-              "Han Solo": {'subject': 'math': {'grade': "A-"},
-                           'etiquette': {'grade': "C-"},
-                           'grammar': {'grade': "B"},
-                           'gym': {'grade': "B"}}
-              "C-3PO": {'subject': 'math': {'grade': "C"},
-                        'etiquette': {'grade': "A+"},
-                        'grammar': {'grade': "A"},
-                        'grm': {'grade': "F"}}}
+GRADE_DATA = {
+        'Luke Skywalker': {'math': ["B"],
+                           'etiquette': ["B+"],
+                           'grammar': ["B"],
+                           'gym': ["A"]},
+        'Han Solo': {'math': ["A-"],
+                     'etiquette': ["C-"],
+                     'grammar': ["B"],
+                     'gym': ["B"]},
+        'C-3PO': {'math': ["C"],
+                  'etiquette': ["A+"],
+                  'grammar': ["A"],
+                  'gym': ["F"]}
+        }
