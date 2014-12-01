@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """Does useful calculations on a shopping list"""
 
+
 from data import FRUIT
 def get_cost_per_item(shoplist):
 
@@ -11,6 +12,7 @@ def get_cost_per_item(shoplist):
 
     cost = {a: FRUIT[a] * b for a, b in shoplist.iteritems() if a in FRUIT}
     return cost
+
 
 def get_total_cost(shoplist):
 
